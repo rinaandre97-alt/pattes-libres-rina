@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Les Pattes Libres</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Refuge Les Pattes Libres</h1>
+
+  <nav>
+      <a href="index.html">Accueil</a>
+      <a href="adopter.html">Adopter</a>
+      <a href="contact.html">Contact</a>
+  </nav> 
+
+</header>
+
+<main>
+
+<section class="bienvenue">
+<h2>Contactez-nous</h2>
+<p>
+Vous souhaitez adopter un animal ou poser une question ?
+Contactez notre refuge !
+</p>
+</section>
+
+<section class="informations">
+<h2>Nos coordonnées</h2>
+  <p><strong>Adresse :</strong> 12 rue des Erables</p>
+  <p><strong>Téléphone :</strong> 02 36 12 45 47</p>
+  <p><strong>Email :</strong> lespatteslibres@gmail.com</p>
+
+  <br>
+
+<h2>Horaires d'ouverture</h2>
+
+<table>
+  <tr>
+      <th>Jour</th>
+      <th>Horaires</th>
+  </tr>
+  
+  <tr>
+      <td>Lundi</td>
+      <td>Fermé</td>
+  </tr>
+  <tr>
+      <td>Mardi</td>
+      <td>10h00 - 17h00</td>
+  </tr>
+  <tr>
+      <td>Mercredi</td>
+      <td>10h00 - 17h00</td>
+  </tr>
+  <tr>
+      <td>Jeudi</td>
+      <td>9h00 - 15h30</td>
+  </tr>
+  <tr>
+      <td>Vendredi</td>
+      <td>10h00 - 17h00</td>
+  </tr>
+  <tr>
+      <td>Samedi</td>
+      <td>Fermé</td>
+  </tr>
+  <tr>
+      <td>Dimanche</td>
+      <td>14h00 - 17h00</td>
+  </tr>
+</table>
+</section>
+
+<section class="adoption">
+<h2>Formulaire de demande d'adoption</h2>
+
+<p>
+Remplissez ce formulaire si vous souhaitez adopter un animal de notre refuge.
+</p>
+
+<form action="#" method="post">
+
+<h3>Vos informations</h3>
+
+<label for="nom">Nom :</label>
+<input type="text" id="nom" name="nom" required>
+<label for="prenom">Prénom :</label>
+<input type="text" id="prenom" name="prenom" required>
+<label for="email">Email :</label>
+<input type="email" id="email" name="email" required>
+<label for="telephone">Téléphone :</label>
+<input type="tel" id="telephone" name="telephone" required>
+<label for="adresse">Adresse :</label>
+<input type="text" id="adresse" name="adresse" required>                
+
+<h3>Votre adoption</h3>
+
+<label for="animal">Animal souhaité :</label>
+
+<select id="animal" name="animal" required>
+    <option value="">Choisir un animal</option>
+    <option value="max">Max - Chien</option>
+    <option value="rex">Rex - Chien</option>
+    <option value="bella">Bella - Chienne</option>
+    <option value="luna">Luna - Chatte</option>
+    <option value="simba">Simba - Chat</option>
+    <option value="milo">Milo - Chat</option>
+</select>
+
+
+</select>
+
+<label for="logement">Votre logement :</label>
+<select id="logement" name="logement" required>
+    <option value="">Choisir</option>
+    <option value="maison">Maison</option>
+    <option value="appartement">Appartement</option>
+</select>
+
+<label for="animaux">Avez-vous d'autres animaux ?</label>
+<select id="animaux" name="animaux" required>
+    <option value="">Choisir</option>
+    <option value="oui">Oui</option>
+    <option value="non">Non</option>
+</select>
+
+<label for="projet">Votre projet d'adoption :</label>
+<textarea id="projet" name="projet" rows="5" required></textarea>
+
+<div class="accord">
+<input type="checkbox" id="accord" name="accord" required>
+<label for="accord">
+J'accepte que mes données soient utilisées pour ma demande d'adoption.
+</label>
+</div>
+
+<button type="submit">Envoyer ma demande</button>
+
+</form>
+</section>
+
+<section class="localisation">
+<h2>Où nous trouver ?</h2>
+
+<p>Voici l'emplacement de notre refuge :</p>
+
+<div class="plan">
+    <iframe
+        src=https://www.google.com/maps?q=Chartres,France&output=embed 
+        width= 100%
+        height=350
+        title="Plan d'accès au refuge Les Pattes Libres à Chartres">
+    </iframe>
+</div>
+</section>
+
+</main>
+
+<footer>
+         <p>© 2026 Les Pattes Libres</p>
+         <p>Adresse et téléphone du refuge à compléter</p>
+</footer>
+
+</body>
+</html>
