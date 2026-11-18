@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333333;
+}
+
+header {
+  background-color: #47745b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.bienvenue {
+  background-color: #dce9df;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+section {
+  padding: 30px;
+}
+
+h2 {
+  color: #31543e;
+}
+
+.informations {
+  background-color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 500px;
+}
+
+th,
+td {
+  border: 1px solid #dce9df;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #dce9df;
+}
+
+.adoption {
+  background-color: #dce9df;
+}
+
+form {
+  background-color: white;
+  padding: 25px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #31543e;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dce9df;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.accord {
+  margin-top: 20px;
+}
+.accord {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.accord input {
+  width: auto;
+  margin: 0;
+}
+
+.accord label {
+  display: inline;
+}
+
+button {
+  background-color: #31543e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #31543e;
+}
+
+.localisation {
+  text-align: center;
+}
+
+.plan {
+  background-color: #dce9df;
+  padding: 50px;
+  border: 1px solid #31543e;
+}
+
+footer {
+  background-color: #31543e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
